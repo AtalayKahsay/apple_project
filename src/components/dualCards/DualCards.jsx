@@ -1,4 +1,5 @@
-
+import watchs from '../../images/icons/watch-series5-logo.png'
+import appleCard from '../../images/icons/apple-card-logo.png'
 
 function DualCards() {
   return (
@@ -7,7 +8,7 @@ function DualCards() {
 			<div className="left-side-wrapper">
 				<div className="top-logo-wrapper">
 					<div className="logo-wrapper">
-						<img src="images/icons/watch-series5-logo.png" />
+						<img src={watchs} />
 					</div>
 				</div>
 				<div className="description-wraper">
@@ -23,7 +24,7 @@ function DualCards() {
 			<div className="right-side-wrapper">
 				<div className="top-logo-wrapper">
 					<div className="logo-wrapper">
-						<img src="images/icons/apple-card-logo.png" />
+						<img src={appleCard} />
 					</div>
 				</div>
 				<div className="description-wraper">
