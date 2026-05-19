@@ -7,6 +7,7 @@ import Iphone17Pro from './components/iphone17pro/Iphone17Pro'
 import DualCards from './components/dualCards/DualCards'
 import SplitSection from './components/splitSection/SplitSection'
 import DualProduct from './components/dualProduct/DualProduct'
+import Footer from './components/footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <DualCards />
       <SplitSection />
       <DualProduct />
+      <Footer />
     </div>
   )
 }
