@@ -1,0 +1,10 @@
+.second-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-image-wrapper img {
+  width: 50%;
+  max-width: none;
+}
