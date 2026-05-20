@@ -1,6 +1,8 @@
 import watchs from '../../images/icons/watch-series5-logo.png'
 import appleCard from '../../images/icons/apple-card-logo.png'
 
+import './DualCards.css'
+
 function DualCards() {
   return (
     <div>

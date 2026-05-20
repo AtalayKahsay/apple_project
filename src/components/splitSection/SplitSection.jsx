@@ -1,6 +1,8 @@
 import appletv from '../../images/icons/apple-tv-logo.png'
 import servantLogo from '../../images/icons/servant-logo.png'
 
+import './SplitSection.css'
+
 function SplitSection() {
   return (
     <div>

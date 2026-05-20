@@ -2,6 +2,8 @@ import logo from '../../images/icons/logo.png'
 import searchIcon from '../../images/icons/search-icon.png'
 import cart from '../../images/icons/cart.png'
 
+import './Header.css'
+
 function Header() {
   return (
     <div>

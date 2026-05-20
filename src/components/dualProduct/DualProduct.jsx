@@ -1,5 +1,7 @@
 import ipad from '../../images/icons/new-ipad-logo.png'
 
+import './DualProduct.css'
+
 function DualProduct() {
   return (
     <div>

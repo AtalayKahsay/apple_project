@@ -1,0 +1,39 @@
+.main-highlight-wrapper {
+  text-align: center;
+  padding: 60px 15px;
+}
+
+.product-title {
+  font-size: clamp(32px, 6vw, 56px);
+  font-weight: 700;
+}
+
+.brief-description {
+  font-size: clamp(16px, 3vw, 28px);
+}
+
+.links-wrapper ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.links-wrapper ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.links-wrapper ul li a {
+	color: #06c;
+	text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+	color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}

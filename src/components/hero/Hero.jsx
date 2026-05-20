@@ -1,5 +1,7 @@
 import macLaptop from '../../images/home/mac-laptop.jpg'
 
+import './Hero.css'
+
 function Hero() {
   return (
     <div>

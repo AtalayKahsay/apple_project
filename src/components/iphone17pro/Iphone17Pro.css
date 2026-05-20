@@ -1,5 +1,15 @@
+.third-highlight-wrapper {
+  text-align: center;
+  padding: 60px 15px;
+}
+
 .third-image-wrapper img {
-  width: 35%;
-  max-width: none;
+  width: min(500px, 35%);
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .third-highlight-wrapper {
+    padding: 40px 10px;
+  }
 }

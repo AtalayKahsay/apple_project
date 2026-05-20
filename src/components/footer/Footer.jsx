@@ -1,5 +1,7 @@
 import flag from '../../images/icons/flag-usa.png'
 
+import './Footer.css'
+
 function Footer() {
   return (
     <div>
@@ -102,12 +104,11 @@ function Footer() {
 
           </div>
 
-          {/* Shop info */}
           <div className="my-apple-wrapper">
             More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call <a href="tel:18006927753">1-800-MY-APPLE</a> (1-800-692-7753).
           </div>
 
-          {/* Bottom footer */}
+          
           <div className="copyright-wrapper">
 
             <div className="copyright">
