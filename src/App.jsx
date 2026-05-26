@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import Header from './components/header/Header'
-import Hero from './components/hero/Hero'
+import Hero from './components/hero/Hero'  
 import Iphone17ProMax from './components/iphone17promax/Iphone17ProMax'
 import Iphone17Pro from './components/iphone17pro/Iphone17Pro'
 import DualCards from './components/dualCards/DualCards'

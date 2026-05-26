@@ -6,7 +6,7 @@ function Iphone17Pro() {
     <div>
       <section className="third-highlight-wrapper">
 			<div className="internal-wrapper">
-				<div className="title-wraper">
+				<div className="title-wrapper">
 					iPhone 17 Pro 
 				</div> 
 				<div className="description-wrapper">

@@ -1,6 +1,7 @@
 import ipad from '../../images/icons/new-ipad-logo.png'
 
 import './DualProduct.css'
+import YouTubeApple from './youTube/YouTubeApple'
 
 function DualProduct() {
   return (
@@ -44,6 +45,10 @@ function DualProduct() {
 					</ul> 
 				</div>
 			</div>	
+		</section>
+
+		<section>
+			<YouTubeApple />
 		</section>
     </div>
   )

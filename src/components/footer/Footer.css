@@ -74,7 +74,7 @@
 /* TABLET + SMALL SCREENS */
 @media (max-width: 768px) {
   .footer-links-wrapper {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .copyright-wrapper {
