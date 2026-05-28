@@ -13,12 +13,12 @@ function Header() {
             <ul>
               <li className="logo-link"><a href="/"><img src={logo} /></a></li>
               <li><a href="/mac/">Mac</a></li>
-              <li><a href="#">iphone</a></li>
-              <li><a href="#">ipad</a></li>
-              <li><a href="#">watch</a></li>
-              <li><a href="#">tv</a></li>
-              <li><a href="#">Music</a></li>
-              <li><a href="#">Support</a></li>
+              <li><a href="/iphone/">iphone</a></li>
+              <li><a href="/ipad/">ipad</a></li>
+              <li><a href="/watch/">Watch</a></li>
+              <li><a href="/tv/">TV</a></li>
+              <li><a href="/music/">Music</a></li>
+              <li><a href="/support/">Support</a></li>
               <li className="search-link"><a href="/search/"><img src={searchIcon} /></a></li>
               <li className="cart-link"><a  href="/cart/"><img src={cart} /></a></li>
             </ul>					

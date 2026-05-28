@@ -4,16 +4,18 @@
   padding: 20px 0;
 }
 
-/* LINKS GRID */
-.footer-links-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-left: 20px;
+/* UPPER TEXT */
+.upper-text-container {
+  color: #86868b;
+  padding: 15px 0;
 }
 
-.footer-links-wrapper > div {
-  flex: 1 1 180px;
+/* LINKS GRID */
+.footer-links-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 20px;
 }
 
 .footer-links-wrapper ul {
@@ -23,12 +25,6 @@
 
 .footer-links-wrapper li {
   padding: 4px 0;
-}
-
-/* UPPER TEXT */
-.upper-text-container {
-  color: #86868b;
-  padding: 15px 0;
 }
 
 /* SHOP INFO */
@@ -46,12 +42,11 @@
   text-align: center;
 }
 
-/* TERMS LINKS (FIXED) */
+/* TERMS LINKS */
 .footer-links-terms ul {
   list-style: none;
   margin: 0;
   padding: 0;
-
   display: flex;
   gap: 15px;
   justify-content: center;
@@ -71,10 +66,10 @@
   justify-content: center;
 }
 
-/* TABLET + SMALL SCREENS */
+/* TABLET — 2 columns so last two drop below first row */
 @media (max-width: 768px) {
   .footer-links-wrapper {
-    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .copyright-wrapper {
@@ -87,9 +82,13 @@
   }
 }
 
-/* SMALL PHONE */
+/* MOBILE — 1 column */
 @media (max-width: 480px) {
   .footer-wrapper {
     font-size: 0.6em;
+  }
+
+  .footer-links-wrapper {
+    grid-template-columns: 1fr;
   }
 }

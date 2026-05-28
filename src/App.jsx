@@ -1,28 +1,29 @@
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 
-import Header from './components/header/Header'
-import Hero from './components/hero/Hero'  
-import Iphone17ProMax from './components/iphone17promax/Iphone17ProMax'
-import Iphone17Pro from './components/iphone17pro/Iphone17Pro'
-import DualCards from './components/dualCards/DualCards'
-import SplitSection from './components/splitSection/SplitSection'
-import DualProduct from './components/dualProduct/DualProduct'
-import Footer from './components/footer/Footer'
+import Home from './pages/home/Home'
+import Mac from './pages/mac/Mac'
+import Iphone from './pages/iphone/Iphone'
+import Ipad from './pages/ipad/Ipad'
+import Watch from './pages/watch/Watch'
+import TV from './pages/tv/TV'
+import Music from './pages/music/Music'
+import Support from './pages/support/Support'
+import Cart from './pages/cart/Cart'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Iphone17ProMax />
-      <Iphone17Pro />
-      <DualCards />
-      <SplitSection />
-      <DualProduct />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="mac" element={<Mac />} />
+      <Route path="iphone" element={<Iphone />} />
+      <Route path="ipad" element={<Ipad />} />
+      <Route path="watch" element={<Watch />} />
+      <Route path="tv" element={<TV />} />
+      <Route path="music" element={<Music />} />
+      <Route path="support" element={<Support />} />
+      <Route path="cart" element={<Cart />} />
+    </Routes>
   )
 }
 export default App
