@@ -13,7 +13,7 @@ function Header() {
         <div className="internal-wrapper"> 
           <div className="header-links-wrapper">
             <ul>
-              <li className="logo-link"><Link to="/"><img src={logo} /></Link></li>
+              <li className="logo-link"><Link to="/"><img src={logo} alt="Apple logo" /></Link></li>
               <li><NavbarList LinkURL="/mac" LinkName="Mac" /></li>
               <li><NavbarList LinkURL="/iphone" LinkName="iPhone" /></li>
               <li><NavbarList LinkURL="/ipad" LinkName="iPad" /></li>
@@ -21,8 +21,8 @@ function Header() {
               <li><NavbarList LinkURL="/tv" LinkName="TV" /></li>
               <li><NavbarList LinkURL="/music" LinkName="Music" /></li>
               <li><NavbarList LinkURL="/support" LinkName="Support" /></li>
-              <li className="search-link"><Link to="/search/"><img src={searchIcon} /></Link></li>
-              <li className="cart-link"><Link  to="/cart/"><img src={cart} /></Link></li>
+              <li className="search-link"><Link to="/search/"><img src={searchIcon} alt="Search icon" /></Link></li>
+              <li className="cart-link"><Link  to="/cart/"><img src={cart} alt="Cart icon" /></Link></li>
             </ul>					
           </div>
         </div>
