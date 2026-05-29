@@ -1,6 +1,7 @@
 import logo from '../../images/icons/logo.png'
 import searchIcon from '../../images/icons/search-icon.png'
 import cart from '../../images/icons/cart.png'
+import NavbarList from '../navbarList/NavbarList'
 
 import './Header.css'
 import { Link } from 'react-router-dom'
@@ -12,16 +13,16 @@ function Header() {
         <div className="internal-wrapper"> 
           <div className="header-links-wrapper">
             <ul>
-              <li className="logo-link"><Link href="/"><img src={logo} /></Link></li>
-              <li><Link href="/mac/">Mac</Link></li>
-              <li><Link href="/iphone/">iphone</Link></li>
-              <li><Link href="/ipad/">ipad</Link></li>
-              <li><Link href="/watch/">Watch</Link></li>
-              <li><a href="/tv/">TV</a></li>
-              <li><Link href="/music/">Music</Link></li>
-              <li><Link href="/support">Support</Link></li>
-              <li className="search-link"><Link href="/search/"><img src={searchIcon} /></Link></li>
-              <li className="cart-link"><link  href="/cart/"><img src={cart} /></link></li>
+              <li className="logo-link"><Link to="/"><img src={logo} /></Link></li>
+              <li><NavbarList LinkURL="/mac" LinkName="Mac" /></li>
+              <li><NavbarList LinkURL="/iphone" LinkName="iPhone" /></li>
+              <li><NavbarList LinkURL="/ipad" LinkName="iPad" /></li>
+              <li><NavbarList LinkURL="/watch" LinkName="Watch" /></li>
+              <li><NavbarList LinkURL="/tv" LinkName="TV" /></li>
+              <li><NavbarList LinkURL="/music" LinkName="Music" /></li>
+              <li><NavbarList LinkURL="/support" LinkName="Support" /></li>
+              <li className="search-link"><Link to="/search/"><img src={searchIcon} /></Link></li>
+              <li className="cart-link"><Link  to="/cart/"><img src={cart} /></Link></li>
             </ul>					
           </div>
         </div>

@@ -21,7 +21,7 @@ function YouTubeApple() {
 
     fetchVideos();
   }, []);
-  console.log(videos);
+  // console.log(videos);
 
   return (
     <section className="yt-section">

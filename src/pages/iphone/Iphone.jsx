@@ -4,15 +4,15 @@ import Header from "../../components/header/Header"
 
 function Iphone() {
   return (
-  <div>
+  <>
     <Header />
 
     <div>
       <h1>Iphone Page</h1>
     </div>
-    <Footer />
     
-  </div>
+    <Footer />
+  </>
   )
 }
 

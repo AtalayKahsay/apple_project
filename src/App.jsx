@@ -9,6 +9,7 @@ import TV from './pages/tv/TV'
 import Music from './pages/music/Music'
 import Support from './pages/support/Support'
 import Cart from './pages/cart/Cart'
+import Four04 from './pages/four04/Four04'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="music" element={<Music />} />
       <Route path="support" element={<Support />} />
       <Route path="cart" element={<Cart />} />
+      <Route path='*' element={<Four04 />} />
     </Routes>
   )
 }

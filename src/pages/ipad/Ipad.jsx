@@ -4,7 +4,7 @@ import Header from "../../components/header/Header"
 
 function Ipad() {
   return (
-  <div>
+  <>
     <Header />
 
     <div>
@@ -12,7 +12,7 @@ function Ipad() {
     </div>
     
     <Footer />
-  </div>
+  </>
   )
 }
 

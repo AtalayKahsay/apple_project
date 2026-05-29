@@ -3,7 +3,7 @@ import Header from "../../components/header/Header"
 
 function TV() {
   return (
-    <div>
+    <>
       <Header />
 
       <div>
@@ -11,7 +11,7 @@ function TV() {
       </div>
       
       <Footer />
-    </div>
+    </>
   )
 }
 
