@@ -4,13 +4,14 @@
   display: block;
 }
 
-/* HEADER BASE */
 .header-wrapper {
   background: black;
   color: #fff;
   font-size: 0.75em;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
 }
 
@@ -23,25 +24,21 @@
   flex-wrap: wrap;
 }
 
-/* ITEMS */
 .header-links-wrapper li {
   padding: 10px;
   opacity: 0.8;
   transition: 0.2s;
 }
 
-/* HOVER EFFECT */
 .header-links-wrapper li:hover {
   opacity: 1;
 }
 
-/* FIX LINK COLOR (IMPORTANT) */
 .header-wrapper a {
   color: #fff;
   text-decoration: none;
 }
 
-/* ICON LINKS (logo/search/cart spacing fix) */
 .logo-link,
 .search-link,
 .cart-link {
